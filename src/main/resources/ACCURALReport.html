@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+
+<head>
+    <style>
+
+     table,
+    th,
+    td {
+
+       font-family:'Century Gothic',CenturyGothic,AppleGothic,sans-serif;
+           text-align: center;
+           border: 1px solid black;
+           border-collapse: collapse;
+           white-space: nowrap;
+
+    }
+
+    </style>
+</head>
+<body>
+
+
+<table>
+
+    <tr style="background-color:#b6cff2; font-size:14px; padding: 9px 8px 9px 8px;">
+        <th colspan="4" style="width:70px">GUARANTEE ACCURAL REPORT</th>
+    </tr>
+
+    <div>
+    <tr>
+        <th  style="width:170px">Monthly Report</th>
+        <th colspan="3" style="width:190px">Dated:<span th:text="${mainDto.getLocalBD()}"> </span></th>
+    </tr>
+    </div>
+    <tr>
+        <th  style="width:200px">Region</th>
+        <th  style="width:170px">Issued LG</th>
+        <th  style="width:190px">Active LG</th>
+        <th  style="width:190px">Exception LG</th>
+    </tr>
+
+    <div>
+    <tr style="background-color:#b6cff2; font-size:14px; padding: 9px 8px 9px 8px;">
+        <th style="width:70px">Kuwait</th>
+        <td  th:text="${mainDto.getIssuedCount()}"></td>
+        <td th:text="${mainDto.getActiveCount()}"></td>
+        <td th:text="${excelFileCreator.getCount()}"></td>
+
+    </tr>
+    </div>
+
+
+
+
+</table>
+
+<p></p>
+<p></p>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+
+i
+java:S3008"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Êôž…ýÿÿÿÿ
+f	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ÿ²¾
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÅÆŠùÿÿÿÿ
+p
+java:S1488,"ZImmediately return this expression instead of assigning it to the temporary variable "ps".(äâŒÃ
+\
+java:S3457X"AFormat specifiers should be used instead of string concatenation.(€ Áûþÿÿÿÿ
+u
+java:S1488K"ZImmediately return this expression instead of assigning it to the temporary variable "ps".(¶Ë¥Âþÿÿÿÿ
+\
+java:S3457<"AFormat specifiers should be used instead of string concatenation.(ŒèºÒüÿÿÿÿ

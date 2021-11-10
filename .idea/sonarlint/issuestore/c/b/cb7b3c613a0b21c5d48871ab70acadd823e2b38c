@@ -1,0 +1,22 @@
+
+R
+java:S2209e"5Change this instance-reference to a static reference.(–„ó·8±‹ñ.
+S
+java:S14818"1Remove this unused "businessDate" local variable.(ŸØÿÿÿÿÿÿ8àÃÌ‹ñ.
+]
+java:S1854="@Remove this useless assignment to local variable "businessDate".(âñëù8àÃÌ‹ñ.
+`
+java:S1155:">Use isEmpty() to check whether the collection is empty or not.(åäÍøÿÿÿÿ8àÃÌ‹ñ.
+Q
+java:S2209I"5Change this instance-reference to a static reference.(ì°8çîŠñ.
+V
+java:S1854@"@Remove this useless assignment to local variable "businessDate".(éÛŠş
+d
+java:S3008!"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÈê³
+g	java:S112q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒ£õñ.
+u
+java:S2139n"XEither log this exception and handle it, or rethrow it with some contextual information.(”ı¾8ƒ£õñ.
+^
+java:S3457p"AFormat specifiers should be used instead of string concatenation.(úÃş‰8ƒ£õñ.
+c
+java:S3457O"AFormat specifiers should be used instead of string concatenation.(ê•øÿÿÿÿ8™üÑ‹ñ.
